@@ -27,7 +27,7 @@ Software Integration:
 •	Compatible with nRF Connect Mobile App, which receives and displays data on Android (BLE 4.3+) and iOS (BLE 5.0+) devices.
 •	Includes simple data handling logic for connection, notification, and sensor data parsing.
 2. System Architecture
- 
+ ![image](https://github.com/user-attachments/assets/79c962d5-f0d4-4fa8-843b-73c3cd6f7633)
 3. Hardware Design
 3.1 List of Components
 •	NRF52840-DK (Nordic Semiconductor) x 2. [1]
@@ -46,9 +46,11 @@ Software Integration:
 
 
 
+
 3.2 Schematic Diagram
 Diagram 1: Shows the schematic diagram of nRF52840 and AD8232 Pin Connections
  
+![image](https://github.com/user-attachments/assets/a8b974a1-f629-4dd4-9121-dd884498b39f)
 
 
 
@@ -57,6 +59,7 @@ Diagram 1: Shows the schematic diagram of nRF52840 and AD8232 Pin Connections
 3.3 Wiring and Connections
 Figure 1: Shows the connection between nRF52840 and AD8232 Sensor
  
+![image](https://github.com/user-attachments/assets/42134191-e6ff-4547-9d3d-7c4e8db5b452)
 
 
 
@@ -64,6 +67,7 @@ Figure 1: Shows the connection between nRF52840 and AD8232 Sensor
 
 Figure 2: Shows the connection between nRF52840 and MPU6050
  
+![image](https://github.com/user-attachments/assets/9143abc6-78ae-4228-9047-25d660bdf3f2)
 4. Software Design
 4.1 Programming Environment
 •	Segger Embedded Studio 8.22a. [5]
